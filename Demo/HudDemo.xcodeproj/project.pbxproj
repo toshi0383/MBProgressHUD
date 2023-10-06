@@ -10,6 +10,12 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		5BE141EE1CD8C33D0023BC9E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE141ED1CD8C33D0023BC9E /* QuartzCore.framework */; };
+		8A97202E2ACF9A320080A1C7 /* HudDemoVisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A97202D2ACF9A320080A1C7 /* HudDemoVisionApp.swift */; };
+		8A9720302ACF9A320080A1C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A97202F2ACF9A320080A1C7 /* ContentView.swift */; };
+		8A9720322ACF9A340080A1C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A9720312ACF9A340080A1C7 /* Assets.xcassets */; };
+		8A9720352ACF9A340080A1C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A9720342ACF9A340080A1C7 /* Preview Assets.xcassets */; };
+		8A97203B2ACF9A750080A1C7 /* RealityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A97203A2ACF9A750080A1C7 /* RealityKit.framework */; };
+		8A97203C2ACF9EF40080A1C7 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D22F7D800F85241C00550BB3 /* MBProgressHUD.m */; };
 		D22F7D810F85241C00550BB3 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D22F7D800F85241C00550BB3 /* MBProgressHUD.m */; };
 		D274948B1D3B74AA00ABEB66 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D274948A1D3B74AA00ABEB66 /* Images.xcassets */; };
 		D27F18451D3B5878009D7482 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D27F18441D3B5878009D7482 /* main.m */; };
@@ -43,6 +49,14 @@
 		1D6058910D05DD3D006BFB54 /* HudDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HudDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5BE141ED1CD8C33D0023BC9E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8A9720272ACF9A320080A1C7 /* HudDemoVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HudDemoVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A97202A2ACF9A320080A1C7 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		8A97202D2ACF9A320080A1C7 /* HudDemoVisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HudDemoVisionApp.swift; sourceTree = "<group>"; };
+		8A97202F2ACF9A320080A1C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8A9720312ACF9A340080A1C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A9720342ACF9A340080A1C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8A9720362ACF9A340080A1C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A97203A2ACF9A750080A1C7 /* RealityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealityKit.framework; path = Platforms/XROS.platform/Developer/SDKs/XROS1.0.sdk/System/Library/Frameworks/RealityKit.framework; sourceTree = DEVELOPER_DIR; };
 		D22F7D7F0F85241C00550BB3 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = ../MBProgressHUD.h; sourceTree = SOURCE_ROOT; };
 		D22F7D800F85241C00550BB3 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = ../MBProgressHUD.m; sourceTree = "<group>"; };
 		D274948A1D3B74AA00ABEB66 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -84,6 +98,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8A9720242ACF9A320080A1C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A97203B2ACF9A750080A1C7 /* RealityKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D27F183E1D3B5878009D7482 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -121,6 +143,7 @@
 				1D6058910D05DD3D006BFB54 /* HudDemo.app */,
 				D2B1740F1C5E3A3D00021915 /* HudTests.xctest */,
 				D27F18411D3B5878009D7482 /* HudDemoTV.app */,
+				8A9720272ACF9A320080A1C7 /* HudDemoVision.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,7 +155,9 @@
 				D27F18421D3B5878009D7482 /* HudDemoTV */,
 				D2B174101C5E3A3D00021915 /* HudTests */,
 				D28CBB391A87A6B00052DCEC /* MBProgressHUD */,
+				8A9720282ACF9A320080A1C7 /* HudDemoVision */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				8A9720292ACF9A320080A1C7 /* Packages */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
 			name = CustomTemplate;
@@ -162,12 +187,41 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8A97203A2ACF9A750080A1C7 /* RealityKit.framework */,
 				5BE141ED1CD8C33D0023BC9E /* QuartzCore.framework */,
 				D286A76C1518CA9F00E13FB8 /* CoreGraphics.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A9720282ACF9A320080A1C7 /* HudDemoVision */ = {
+			isa = PBXGroup;
+			children = (
+				8A97202D2ACF9A320080A1C7 /* HudDemoVisionApp.swift */,
+				8A97202F2ACF9A320080A1C7 /* ContentView.swift */,
+				8A9720312ACF9A340080A1C7 /* Assets.xcassets */,
+				8A9720362ACF9A340080A1C7 /* Info.plist */,
+				8A9720332ACF9A340080A1C7 /* Preview Content */,
+			);
+			path = HudDemoVision;
+			sourceTree = "<group>";
+		};
+		8A9720292ACF9A320080A1C7 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				8A97202A2ACF9A320080A1C7 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		8A9720332ACF9A340080A1C7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8A9720342ACF9A340080A1C7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		D277FDBF11FC880100304321 /* UI */ = {
@@ -249,6 +303,25 @@
 			productReference = 1D6058910D05DD3D006BFB54 /* HudDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8A9720262ACF9A320080A1C7 /* HudDemoVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A9720372ACF9A340080A1C7 /* Build configuration list for PBXNativeTarget "HudDemoVision" */;
+			buildPhases = (
+				8A9720232ACF9A320080A1C7 /* Sources */,
+				8A9720242ACF9A320080A1C7 /* Frameworks */,
+				8A9720252ACF9A320080A1C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HudDemoVision;
+			packageProductDependencies = (
+			);
+			productName = HudDemoVision;
+			productReference = 8A9720272ACF9A320080A1C7 /* HudDemoVision.app */;
+			productType = "com.apple.product-type.application";
+		};
 		D27F18401D3B5878009D7482 /* HudDemoTV */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D27F18541D3B5878009D7482 /* Build configuration list for PBXNativeTarget "HudDemoTV" */;
@@ -291,9 +364,15 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = MB;
+				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Matej Bukovinski";
 				TargetAttributes = {
+					8A9720262ACF9A320080A1C7 = {
+						CreatedOnToolsVersion = 15.0;
+						DevelopmentTeam = 5WSE8X23BF;
+						ProvisioningStyle = Automatic;
+					};
 					D27F18401D3B5878009D7482 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -318,6 +397,7 @@
 				1D6058900D05DD3D006BFB54 /* HudDemo */,
 				D27F18401D3B5878009D7482 /* HudDemoTV */,
 				D2B1740E1C5E3A3D00021915 /* HudTests */,
+				8A9720262ACF9A320080A1C7 /* HudDemoVision */,
 			);
 		};
 /* End PBXProject section */
@@ -330,6 +410,15 @@
 				D27F18641D3B5E21009D7482 /* Main.storyboard in Resources */,
 				D2EEB3811B55967200F59EC1 /* Images.xcassets in Resources */,
 				D27F18631D3B5E21009D7482 /* Launch.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A9720252ACF9A320080A1C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A9720352ACF9A340080A1C7 /* Preview Assets.xcassets in Resources */,
+				8A9720322ACF9A340080A1C7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +450,16 @@
 				D22F7D810F85241C00550BB3 /* MBProgressHUD.m in Sources */,
 				D27F185E1D3B5E0D009D7482 /* main.m in Sources */,
 				D27F185A1D3B5DFF009D7482 /* MBHudDemoAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A9720232ACF9A320080A1C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A9720302ACF9A320080A1C7 /* ContentView.swift in Sources */,
+				8A97203C2ACF9EF40080A1C7 /* MBProgressHUD.m in Sources */,
+				8A97202E2ACF9A320080A1C7 /* HudDemoVisionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,9 +544,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bukovinski.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = HudDemo;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = YES;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -466,9 +565,112 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bukovinski.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = HudDemo;
 				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8A9720382ACF9A340080A1C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_ASSET_PATHS = "\"HudDemoVision/Preview Content\"";
+				DEVELOPMENT_TEAM = 5WSE8X23BF;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.toshi0383.HudDemoVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		8A9720392ACF9A340080A1C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "\"HudDemoVision/Preview Content\"";
+				DEVELOPMENT_TEAM = 5WSE8X23BF;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.toshi0383.HudDemoVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
 			name = Release;
 		};
@@ -678,6 +880,15 @@
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
 				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A9720372ACF9A340080A1C7 /* Build configuration list for PBXNativeTarget "HudDemoVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A9720382ACF9A340080A1C7 /* Debug */,
+				8A9720392ACF9A340080A1C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
